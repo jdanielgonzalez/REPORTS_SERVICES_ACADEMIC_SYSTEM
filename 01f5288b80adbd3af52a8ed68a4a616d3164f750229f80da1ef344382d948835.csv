@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"HU07","ver un training de manera incorrecta","SUCCESS","2021-12-02T00:09:21.9404896-05:00[America/Bogota]","0.0","0.68"
+"HU07","actualizar un training de manera incorrecta","SUCCESS","2021-12-02T00:09:53.1994891-05:00[America/Bogota]","0.0","0.54"
+"HU07","crear un training de manera incorrecta","SUCCESS","2021-12-02T00:10:24.2818684-05:00[America/Bogota]","0.0","0.53"
+"HU07","eliminar un training de manera incorrecta","SUCCESS","2021-12-02T00:10:55.3037526-05:00[America/Bogota]","0.0","0.51"
