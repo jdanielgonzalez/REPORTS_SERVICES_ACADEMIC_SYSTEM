@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"HU02","consultar un training activo","SUCCESS","2021-12-03T13:33:20.747871-05:00[America/Bogota]","0.0","6.25"
+"HU02","consultar todos los training activos","SUCCESS","2021-12-03T13:33:27.0239358-05:00[America/Bogota]","0.0","1.09"
+"HU02","verificar que el programa que esta relacionado con el training activo exista","SUCCESS","2021-12-03T13:33:28.1278863-05:00[America/Bogota]","0.0","0.55"

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="HU02" skipped="0" tests="3" time="7.89" timestamp="2021-12-03 01:33:20"><testcase name="consultar un training activo"/><testcase name="consultar todos los training activos"/><testcase name="verificar que el programa que esta relacionado con el training activo exista"/></testsuite>
