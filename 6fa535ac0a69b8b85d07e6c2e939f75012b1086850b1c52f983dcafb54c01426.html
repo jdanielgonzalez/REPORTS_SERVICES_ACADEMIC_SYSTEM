@@ -143,8 +143,14 @@
         <li >
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
+        <li >
+            <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 02-12-2021 00:08</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-12-2021 00:20</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -165,6 +171,13 @@
 
                         </td>
                         <td valign="top">
+                                <p class="tag">
+                                    <span class="badge tag-badge" style="background:default;">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;"
+                                                                      href="5f614a0065c868345f1f349c31b59ea4cbcb357c75bf5ed5c36c53bf8d12d1cb.html">Ignore
+                                    (tag)</a>
+                                </span>
+                                </p>
                         </td>
                     </tr>
                 </table>
@@ -173,9 +186,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-ban ignored-icon fa-2x' title='IGNORED'></i></a></span>
                             <span class="test-case-title">
-                                <span class="error-color">
+                                <span class="ignore-color">
                                     ver un training
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -255,12 +268,12 @@
                     <td colspan="5"></td>
                 </tr>
 
-                    <tr class="test-SUCCESS">
+                    <tr class="test-IGNORED">
 
                         <td width="50" class="step-icon">
                             <a name="0"></a>
                                 <span style="margin-left: 20px;"
-                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-ban ignored-icon ' title='IGNORED'></i></a>
                                 </span>
                         </td>
 
@@ -274,210 +287,37 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                        <td width="100"><span class="top-level-step">0.06s</span></td>
+                        <td width="130"><span class="top-level-step">IGNORED</span></td>
+                        <td width="100"><span class="top-level-step">0.05s</span></td>
                     </tr>
-                    <tr class="test-ERROR">
+                    <tr class="test-IGNORED">
 
                         <td width="50" class="step-icon">
                             <a name="1"></a>
-                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
-                                   style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection1 error-icon"
-                                       style="margin-left: 20px; float:left; padding-right:5px"></i>
-                                </a>
+                                <span style="margin-left: 20px;"
+                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-ban ignored-icon ' title='IGNORED'></i></a>
+                                </span>
                         </td>
 
                         <td class="step-description-column">
                             <div class="step-description">
-                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
-                                   style="display:block;">
                                     <span class="top-level-step">
                                                 When quiero ver un training nuevo
                                         </span>
-                                </a>
                                 <span class="evidence">
                                 </span>
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">ERROR</span></td>
-                        <td width="100"><span class="top-level-step">33.97s</span></td>
+                        <td width="130"><span class="top-level-step">IGNORED</span></td>
+                        <td width="100"><span class="top-level-step">0.23s</span></td>
                     </tr>
-                        <tr class="test-ERROR">
-                            <td width="40">&nbsp</td>
-                            <td width="%" colspan="3" class="error-message-cell">
-
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">java.lang.IllegalStateException: Cannot parse object because no supported Content-Type was specified in response. Content-Type was &#39;text/html; charset=utf-8&#39;.</span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-2""
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-2">
-            <div class="card">
-                <div class="card-header">
-                    <h4>java.lang.IllegalStateException </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>io.restassured.internal.mapping.ObjectMapping.deserialize(ObjectMapping.groovy:84)<br />io.restassured.internal.RestAssuredResponseOptionsGroovyImpl.as(RestAssuredResponseOptionsGroovyImpl.groovy:220)<br />io.restassured.internal.RestAssuredResponseOptionsImpl.as(RestAssuredResponseOptionsImpl.java:166)<br />net.serenitybdd.rest.decorators.ResponseDecorated.as(ResponseDecorated.java:63)<br />co.com.sofka.questions.hu07.GetOneTrainingQuestion.answeredBy(GetOneTrainingQuestion.java:11)<br />co.com.sofka.stepdefinition.hu07.GetOneTrainingStepDefinition.guardarDatosTraining(GetOneTrainingStepDefinition.java:74)<br />co.com.sofka.stepdefinition.hu07.GetOneTrainingStepDefinition.quiero_ver_un_training_nuevo(GetOneTrainingStepDefinition.java:45)<br />✽.quiero ver un training nuevo(file:///C:/Users/ThinkPad/Desktop/RetoFinal/academic-system-certification/RETO_FINAL_SERVICES/src/test/resources/resources/features/hu07/CrudTraining.feature:10)<br /></pre>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="5">
-                                <table id="stepSection1" class="step-table-nested" style="display:none;">
-
-                    <tr class="test-SUCCESS">
-
-                        <td width="70" class="step-icon">
-                            <a name="1-0"></a>
-                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-0')"
-                                   style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection1-0 success-icon"
-                                       style="margin-left: 40px; float:left; padding-right:5px"></i>
-                                </a>
-                        </td>
-
-                        <td class="step-description-column">
-                            <div class="step-description">
-                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-0')"
-                                   style="display:block;">
-                                    <span class="nested-step">
-                                                Titanes get one training task
-                                        </span>
-                                </a>
-                                <span class="evidence">
-                                </span>
-                            </div>
-                        </td>
-
-                        <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">33.62s</span></td>
-                    </tr>
-                        <tr>
-                            <td colspan="5">
-                                <table id="stepSection1-0" class="step-table-nested" style="display:none;">
-
-                    <tr class="test-SUCCESS">
-
-                        <td width="90" class="step-icon">
-                            <a name="1-0-0"></a>
-                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-0-0')"
-                                   style="display:block">
-                                    <i class="fa fa-plus-square-o imgstepSection1-0-0 success-icon"
-                                       style="margin-left: 60px; float:left; padding-right:5px"></i>
-                                </a>
-                        </td>
-
-                        <td class="step-description-column">
-                            <div class="step-description">
-                                <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-0-0')"
-                                   style="display:block;">
-                                    <span class="nested-step">
-                                                Titanes executes a GET on the resource /Training/61a1346bfb95976275096464
-                                        </span>
-                                </a>
-                                <span class="evidence">
-                                </span>
-                            </div>
-                        </td>
-
-                        <td width="130"><span class="nested-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-step">33.53s</span></td>
-                    </tr>
-                        <tr>
-                            <td colspan="5">
-                                <table id="stepSection1-0-0" class="step-table-nested" style="display:none;">
-
-                    <tr class="test-SUCCESS">
-
-                        <td width="110" class="step-icon">
-                            <a name="1-0-0-0"></a>
-                                <span style="margin-left: 80px;"
-                                      class="nested-group-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
-                                </span>
-                        </td>
-
-                        <td class="step-description-column">
-                            <div class="step-description">
-                                    <span class="nested-group-step">
-                                                GET https://vast-everglades-55825.herokuapp.com/Training/61a1346bfb95976275096464
-                                        </span>
-                                <span class="evidence">
-                                        <span class="piece-of-evidence">
-                    <span>
-                        <button type="button" class="btn btn-success btn-sm" data-toggle="collapse"
-                                data-target="#restModal-REST-5">
-                            REST Query
-                        </button>
-                    </span>
-                    <!-- Modal -->
-                    <div class="rest-query-details">
-                        <div class="collapse multi-collapse" id="restModal-REST-5">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4>Response</h4>
-                                        <p>Status code: 503</p>
-                                        <p>Content Type: application/json</p>
-                                        <h4>Request Headers</h4>
-                                        <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
-                                        <h4>Content Body</h4>
-                                        <pre></pre>
-                                        <h4>Request Cookies</h4>
-                                        <pre></pre>
-                                        <h4>Response Headers</h4>
-                                        <pre>Connection: keep-alive<br>Server: Cowboy<br>Date: Thu, 02 Dec 2021 05:09:18 GMT<br>Content-Length: 506<br>Content-Type: text/html; charset=utf-8<br>Cache-Control: no-cache, no-store</pre>
-                                    <h4>Response Body</h4>
-                                        <pre>&lt;html&gt;<br>  &lt;head&gt;<br>    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;/&gt;<br>    &lt;meta charset=&quot;utf-8&quot;/&gt;<br>    &lt;title&gt;Application Error&lt;/title&gt;<br>    &lt;style media=&quot;screen&quot;&gt;<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  html,body,iframe {<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;margin: 0;<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;padding: 0;<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  }<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  html,body {<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;height: 100%;<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;overflow: hidden;<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  }<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  iframe {<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;width: 100%;<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;height: 100%;<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;border: 0;<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;  }<br>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&lt;/style&gt;<br>  &lt;/head&gt;<br>  &lt;body&gt;<br>    &lt;iframe frameborder=&quot;1&quot; scrolling=&quot;auto&quot; src=&quot;//www.herokucdn.com/error-pages/application-error.html&quot;/&gt;<br>  &lt;/body&gt;<br>&lt;/html&gt;</pre>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                                        </span>
-                                </span>
-                            </div>
-                        </td>
-
-                        <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                        <td width="100"><span class="nested-group-step">0s</span></td>
-                    </tr>
-
-                                </table>
-                            </td>
-                        </tr>
-
-                                </table>
-                            </td>
-                        </tr>
-
-                                </table>
-                            </td>
-                        </tr>
-                    <tr class="test-SKIPPED">
+                    <tr class="test-IGNORED">
 
                         <td width="50" class="step-icon">
                             <a name="2"></a>
                                 <span style="margin-left: 20px;"
-                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></a>
+                                      class="top-level-icon"><a href='##beforetable'><i class='fa fa-ban ignored-icon ' title='IGNORED'></i></a>
                                 </span>
                         </td>
 
@@ -491,13 +331,13 @@
                             </div>
                         </td>
 
-                        <td width="130"><span class="top-level-step">SKIPPED</span></td>
-                        <td width="100"><span class="top-level-step">0.01s</span></td>
+                        <td width="130"><span class="top-level-step">IGNORED</span></td>
+                        <td width="100"><span class="top-level-step">0s</span></td>
                     </tr>
-                <tr class="test-ERROR">
+                <tr class="test-IGNORED">
                         <td colspan="2"></td>
-                    <td width="130"><span class="top-level-step"><em>ERROR</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>34.22s</em></span></td>
+                    <td width="130"><span class="top-level-step"><em>IGNORED</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>0.44s</em></span></td>
                 </tr>
 
             </table>
